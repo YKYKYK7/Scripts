@@ -3,7 +3,7 @@
 
 [Script]
 
-i-maotai_33 = type=http-request, pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query, script-path=https://raw.githubusercontent.com/YKYKYK7/Scripts/main/scripts/i-maotai.js, timeout=60, script-update-interval=0
+i-maotai_777 = type=http-request, pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query, script-path=https://raw.githubusercontent.com/YKYKYK7/Scripts/main/scripts/i-maotai.js, timeout=60, script-update-interval=0
 
 i-maotai = type=cron, cronexp="17 9 * * *", script-path=https://raw.githubusercontent.com/YKYKYK7/Scripts/main/scripts/i-maotai.js, timeout=60, wake-system=1
 
