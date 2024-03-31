@@ -1,0 +1,8 @@
+#!name=龙湖天街
+#!desc=小程序-我的-签到转玲珑-立即签到
+
+[Script]
+龙湖cookie = script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, requires-body=true, type=http-request, pattern=^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock
+
+[MITM]
+hostname = %APPEND% gw2c-hw-open.longfor.com
